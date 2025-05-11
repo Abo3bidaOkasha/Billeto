@@ -1,0 +1,191 @@
+/* Start of Tour Section */
+.tourContainer {
+  width: 100%;
+  height: 100vh;
+  /* background-image: url(/image/Tour.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px 47%; */
+}
+.tourWords {
+  padding-top: 80px;
+  text-align: center;
+}
+.titleTour {
+  font-family: Inknut Antiqua;
+  font-weight: 500;
+  font-size: 64px;
+  color: #103346;
+  margin-bottom: 0%;
+}
+.tourSearchWord {
+  font-family: Inknut Antiqua;
+  font-weight: 400;
+  font-size: 34px;
+  color: #505e6b;
+  margin-bottom: 0%;
+}
+.bottons {
+  background-color: white;
+  /* color: #103346; */
+  width: 50%;
+  margin: 3% auto;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  min-width: 600px;
+}
+.bottons button {
+  color: #103346;
+  width: 15%;
+  border-radius: 20px;
+}
+.btn-outline-primary:hover {
+  background-color: #009df4;
+}
+.dropListItems {
+  padding: 10px;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: Inknut Antiqua;
+  text-decoration: underline;
+}
+
+/* .dropdown-menu {
+  margin: 16px 0px;
+} */
+.whereLi {
+  margin: 16px 0px;
+}
+/* End of Tour Section */
+
+/* start of Patment Info Section  */
+
+.paymentContainer {
+  width: 100%;
+  height: 547px;
+  background-color: #e3f5ff;
+  padding: 2% 6% 2% 6%;
+}
+.PI {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: Inknut Antiqua;
+  padding: 80px 0px 40px 10%;
+  line-height: 100%;
+  letter-spacing: 1%;
+  vertical-align: middle;
+  margin: 0;
+  color: #103346;
+}
+
+.PaymentData {
+  padding: 0px 10% 0px 10%;
+}
+.word {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: Inknut Antiqua;
+  color: #000000;
+}
+.Price {
+  text-align: center;
+  float: right;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: Inknut Antiqua;
+}
+.btn-pay {
+  width: 40%;
+  height: 50px;
+  background-color: #009df4;
+  border-radius: 30px;
+  margin: 67px auto 0 auto;
+  display: bloc k;
+}
+/* End of Patment Info Section  */
+
+/* Start of About Us Section */
+.aboutContainer {
+  width: 100%;
+  height: 778px;
+  background-color: #ffffff;
+  padding: 4% 10% 0% 10%;
+  /* padding-top: 0%;
+  padding-bottom: 0%; */
+
+  /* display: flex; */
+}
+.aboutContent {
+  display: flex;
+  padding: 0% 10% 0% 10%;
+}
+.aboutTitle {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: Inknut Antiqua;
+  color: #006399;
+  display: block;
+  margin-left: 10%;
+}
+.aboutWords {
+  width: 692px;
+  margin-top: 3%;
+  /* max-width: 692px; */
+  /* max-height: 570px; */
+  /* margin-top: -10%; */
+}
+.aboutWords p {
+  /* padding: 10%; */
+  font-family: Inria Sans;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 120%;
+  letter-spacing: 2%;
+  max-height: 500px;
+  overflow: overlay;
+  text-overflow: ellipsis;
+  /* display: -webkit-box; */
+  /* -webkit-line-clamp: 3; */
+  -webkit-box-orient: vertical;
+}
+.aboutImg img {
+  width: 336px;
+  height: 528px;
+  border-radius: 20px;
+}
+.aboutImg {
+  margin-left: 20%;
+}
+/* End of About Us Section */
+/* Start of Footer Section */
+footer {
+  display: flex;
+  background-color: #103346;
+  color: #ffffff;
+  height: 225px;
+  justify-content: space-around;
+  padding: 2%;
+}
+.contactUs {
+  width: 251px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 80%;
+  font-family: Inter;
+}
+
+.follow {
+  text-align: center;
+}
+.follow p {
+  line-height: 80%;
+}
+
+.follow i {
+  font-size: 31px;
+  padding: 10px;
+}
+/* End of Footer Section */
