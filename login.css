@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    border: 1px solid #ccc;
+}
+
+.login-box {
+    width: 450px;
+    padding: 40px;
+    /* border: 2px solid #007bff; */
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.05);
+    text-align: center;
+    box-shadow: 0.2rem 0.1rem 0.2rem 0.2rem rgb(192, 188, 188);
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-family: serif;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 300px;
+    padding: 12px 40px 12px 40px;
+    border: 1px solid #007bff;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.input-group i {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    color: #007bff;
+}
+
+.btn {
+    width: 300px;
+    padding: 12px;
+    background: #0099ff;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #007bff;
+}
+
+.or {
+    margin: 20px 0 10px;
+    color: #777;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons i {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.social-icons i.google {
+    color: #009DF4;
+}
+
+.social-icons i.facebook {
+    color: #3b5998;
+}
